@@ -1,0 +1,32 @@
+#include<stdio.h>
+int main()
+{
+    int n=6;
+    int i,j;
+    for(i=0;i<=5;i++)
+    {
+        for(j=0;j<=5;j++)
+        {
+            if(((i+j)==5)||(j==5))
+            printf("*");
+            else
+            printf(" ");
+        }
+        printf("\n");
+    }
+    for(i=4;i>=0;i--)
+    {
+       
+        for(j=0;j<=5;j++)
+        {
+            if(((i+j)==5)||(j==5))
+            printf("*");
+            else
+            printf(" ");
+        
+        }
+        printf("\n");
+    }
+    
+    return 0;
+}
