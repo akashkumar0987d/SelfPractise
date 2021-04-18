@@ -1,0 +1,13 @@
+Write a C code to print hollow left arrow using star pattern. The number of coloums (N) is taken from test case. For example for N = 6 the output will be 
+
+     *                                                                 
+    **                                                                 
+   * *                                                                 
+  *  *                                                                 
+ *   *                                                                 
+*    *                                                                 
+ *   *                                                                 
+  *  *                                                                 
+   * *                                                                 
+    **                                                                 
+     *  
